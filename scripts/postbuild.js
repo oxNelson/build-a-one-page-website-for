@@ -36,5 +36,9 @@ if (fs.existsSync(distDir)) {
       fs.writeFileSync(path.join(rootRouteDir, 'index.html'), htmlContent, 'utf8');
       console.log(`[postbuild] Generated root ${route}/index.html`);
     }
+
+    // Copy dist/index.html to root index.html for static preview serving
+    fs.copyFileSync(distIndex, path.resolve('index.html'));
+    console.log(`[postbuild] Synced dist/index.html to root index.html`);
   }
 }
