@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowRight, Filter, Sparkles } from 'lucide-react';
+import { ArrowRight, Filter } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { SectionHeading } from '../components/SectionHeading';
 import { Button } from '../components/Button';

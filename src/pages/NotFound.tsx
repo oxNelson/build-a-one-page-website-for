@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowLeft, Home } from 'lucide-react';
+import { Home } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { Button } from '../components/Button';
 

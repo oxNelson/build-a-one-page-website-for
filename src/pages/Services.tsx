@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
-import { ArrowRight, CheckCircle2, Sparkles, Filter } from 'lucide-react';
+import { ArrowRight, CheckCircle2, Filter } from 'lucide-react';
 import { SEO } from '../components/SEO';
 import { SectionHeading } from '../components/SectionHeading';
 import { Button } from '../components/Button';

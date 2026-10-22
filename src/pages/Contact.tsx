@@ -106,7 +106,7 @@ export const Contact: React.FC = () => {
         consent: formData.consent ? 'yes' : 'no'
       };
 
-      const response = await fetch('/', {
+      await fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
         body: encode(formPayload)
