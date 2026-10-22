@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { useSearchParams } from 'react-router-dom';
-import { Mail, MapPin, Globe, CheckCircle2, AlertCircle, Send, Clock, ShieldCheck, ArrowRight } from 'lucide-react';
+import { Mail, MapPin, CheckCircle2, AlertCircle, Send, Clock, ShieldCheck } from 'lucide-react';
 import { SEO } from '../components/SEO';
-import { SectionHeading } from '../components/SectionHeading';
 import { Button } from '../components/Button';
 
 interface FormData {
