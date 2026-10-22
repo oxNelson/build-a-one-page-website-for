@@ -1,22 +1,14 @@
 {
-  "name": "workspace",
+  "name": "obsidian-design-agency",
+  "private": true,
   "version": "1.0.0",
-  "description": "> Independent digital & spatial design practice operating at the intersection of brand identity, tactile digital products, and spatial computing.",
-  "main": "index.js",
+  "type": "module",
+  "description": "Obsidian Design Agency — Premier Creative Agency Corporate Website (Nigeria)",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "tsc -b && vite build && node scripts/postbuild.js",
+    "preview": "vite preview"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/oxNelson/build-a-one-page-website-for.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/oxNelson/build-a-one-page-website-for/issues"
-  },
-  "homepage": "https://github.com/oxNelson/build-a-one-page-website-for#readme",
   "dependencies": {
     "lucide-react": "^1.61.0",
     "react": "^19.3.1",
